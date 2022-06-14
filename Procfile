@@ -1,0 +1,1 @@
+web: gunicorn cryptocurrencyhub.wsgi --log-file -

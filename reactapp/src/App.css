@@ -1,0 +1,102 @@
+body{
+  position: relative;
+  max-width: 100%;
+  margin: 0;
+  left:0;
+
+
+}
+
+
+.background{
+  background-image: url('./images/black-nature-black-and-white-sky-wallpaper-preview.png');
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.grid{
+  display: grid;
+  grid-template-rows: repeat(1, 7fr);
+  grid-template-columns: repeat(3, 7fr);
+  grid-column-gap: 10px;
+  column-gap: 10px
+}
+
+.center-column{
+  width:411px;
+  margin: 10px auto;
+  margin-top: 90px;
+  padding: 10px;
+  background-color: #0AD48B;
+  border-radius: 3px;
+  box-shadow: 6px 2px 30px 0px rgba(0,0,0,0.75);
+}
+
+.center-column-coin-name{
+  width:411px;
+  margin: 10px auto;
+  margin-top: 90px;
+  padding: 10px;
+  background-color: #D4AF37;
+  border-radius: 3px;
+  box-shadow: 6px 2px 30px 0px rgba(0,0,0,0.75);
+}
+
+.center-column-tweet{
+  width:1255px;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #00acee;
+  border-radius: 3px;
+  box-shadow: 6px 2px 30px 0px rgba(0,0,0,0.75);
+}
+
+.item-row-header{
+  width:1250px;
+  background-color: #0AD48B;
+  margin: 0px ;
+  padding: 20px;
+  border-radius: 3px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 900px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0px -1px 10px -4px rgba(0,0,0,0.75);
+}
+
+.item-row{
+  background-color: #282c34;
+  margin: 2px ;
+  padding: 25px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 900px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0px -1px 10px -4px rgba(0,0,0,0.75);
+}
+
+.item-row-tweets{
+  background-color: #282c34;
+  margin: 10px ;
+  padding: 25px;
+  border-radius: 3px;
+  color: #00acee;
+  font-size: 18px;
+  font-weight: 900px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0px -1px 10px -4px rgba(0,0,0,0.75);
+}
+
+.centered{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.left{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
