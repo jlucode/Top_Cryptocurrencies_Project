@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'iy0gl-r+qfw0!kjuftju8_m0zj9g_bhb_z5^^@mb6tfct$b0m0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['cryptocurrencyhub.herokuapp.com', '127.0.0.1', 'http://localhost:3000/']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
