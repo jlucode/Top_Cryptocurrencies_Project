@@ -20,7 +20,7 @@ class App extends Component{
   }
   
   fetchTasks(){
-    fetch('topcryptocurrenciesproject-production.up.railway.app/api/api-overview', {
+    fetch('api/api-overview', {
     method: "GET",
     credentials: "same-origin",  
     headers: {
