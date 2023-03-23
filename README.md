@@ -5,7 +5,7 @@
 
 An informational hub for today's top Cryptocurrencies. You may find the coin name, price, and daily price change from the previous day. Additionally, the most recent Twitter tweet is provided (blue check verified users only).
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<br>
 
 
 
